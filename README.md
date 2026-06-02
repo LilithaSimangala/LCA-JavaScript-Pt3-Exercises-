@@ -1,6 +1,6 @@
 # LCA-JavaScript-Pt3-Exercises
 
-**Trainee:** [Your full registered name] 
+**Trainee:** Lilitha Simangala
 **Programme:** YouthCode Off-Site - Cohort 2, 2026 
 **Course:** Course 1 - Frontend Web Development 
 **Topic:** JavaScript Pt 3 Exercises 

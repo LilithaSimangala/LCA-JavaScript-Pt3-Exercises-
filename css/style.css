@@ -1,0 +1,16 @@
+.card-dev
+{
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    background: white;
+}
+
+.hire-badge
+{
+    background: green;
+    color: white;
+    padding: 3px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+}

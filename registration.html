@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Registration Form</title>
+
+    <style>
+
+        .error
+        {
+            color: red;
+        }
+
+        #formMessage
+        {
+            color: green;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Register Your Account</h1>
+
+    <form id="registrationForm">
+
+        <div id="formMessage"></div>
+
+        <label for="username">Username</label>
+        <br>
+
+        <input
+        type="text"
+        id="username"
+        name="username">
+
+        <p
+        id="usernameError"
+        class="error">
+        </p>
+
+        <label for="email">Email</label>
+        <br>
+
+        <input
+        type="email"
+        id="email"
+        name="email">
+
+        <p
+        id="emailError"
+        class="error">
+        </p>
+
+        <label for="password">Password</label>
+        <br>
+
+        <input
+        type="password"
+        id="password"
+        name="password">
+
+        <p
+        id="passwordError"
+        class="error">
+        </p>
+
+        <label for="confirmPassword">
+            Confirm Password
+        </label>
+
+        <br>
+
+        <input
+        type="password"
+        id="confirmPassword"
+        name="confirmPassword">
+
+        <p
+        id="confirmPasswordError"
+        class="error">
+        </p>
+
+        <button
+        type="submit"
+        id="submitBtn">
+            Register
+        </button>
+
+    </form>
+
+    <script src="week8_ex04_dom_registration_form.js"></script>
+
+</body>
+
+</html>
